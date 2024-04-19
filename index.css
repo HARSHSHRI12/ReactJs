@@ -1,0 +1,98 @@
+.headerstyle{
+  height:100px;
+  background-color:aqua;
+}
+.leftstyle{
+  height:1000px;
+  width:15%;
+  background-color: brown;
+}
+body{
+  margin:0px;
+}
+.contantstyle{
+  height:1000px;
+  width:70%;
+  background-color: rgb(104, 165, 42);
+}
+.footerstyle{
+  height:150px;
+  background-color: rgb(59, 62, 93);
+  color:rgb(167, 120, 63);
+}
+.rtstyle{
+  height:1000px;
+  width:15%;
+  background-color: rgb(35, 50, 16);
+}
+.textStyle{
+  font-size: 20px;
+  text-align: center;
+}
+.hero{
+  display:flex;
+  height:100vh;
+background-image: url('../public/Team.webp');
+background-size: cover;
+box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.6);
+
+}
+.content{
+  display:flex;
+  flex-direction:column;
+  max-width: 1200px;
+  width: 100%;
+  margin:0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.content h1{
+  font-size: 56px;
+  font-weight: bolder;
+  color:white;
+}
+.content p{
+  font-size: 22px;
+  margin:15px 0;
+  max-width: 550px;
+  letter-spacing: 2px;
+  color:white;
+}
+.content a{
+  color:inherit;
+  text-decoration: none;
+  background-color: purple;
+  padding: 12px 24px;
+  font-size: 22px;
+  border-radius: 10px;
+}
+.card-a{
+  background-image: url('../public/Team.webp');
+  background-size: cover;
+  border-radius: 50px;
+ 
+}
+.card h5{
+  color:black solid;
+  margin-left: 20px;
+}
+.fp{
+  margin: left 0;;
+  margin-bottom: 20px;
+  display: flex;
+}
+.lg{
+  margin-Left: 80%;
+  margin-bottom: 20px;
+  display: flex;
+}
+.img{
+  background-image: url("../public/cms.avif");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.6);
+ 
+}
+
